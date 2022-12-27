@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { ProductsContext } from "../Global/ProductsContext";
+import { Footer } from './Footer';
+
 
 export const Order = () => {
   const { orders } = useContext(ProductsContext);
@@ -55,6 +57,9 @@ export const Order = () => {
           ))}
         </ul>
       </div>
+      <div className='pie'>
+            <Footer/>
+        </div>
     </>
   );
 };

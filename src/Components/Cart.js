@@ -8,6 +8,8 @@ import { iosTrashOutline } from 'react-icons-kit/ionicons/iosTrashOutline'
 import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router-dom'
 import { auth } from '../Config/Config'
+import { Footer } from './Footer';
+
 
 export const Cart = ({ user }) => {
 
@@ -90,6 +92,9 @@ export const Cart = ({ user }) => {
                         </Link>
                     </div>}
                 </div>
+                <div className='pie'>
+            <Footer/>
+        </div>
             </>
         </>
     )

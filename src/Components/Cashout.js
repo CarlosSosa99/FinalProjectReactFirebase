@@ -3,6 +3,8 @@ import { auth, db } from '../Config/Config'
 import { CartContext } from '../Global/CartContext'
 import { Navbar } from './Navbar';
 import { useHistory } from 'react-router-dom'
+import { Footer } from './Footer';
+
 
 export const Cashout = (props) => {
 
@@ -103,6 +105,9 @@ export const Cashout = (props) => {
                 </form>
                 {error && <span className='error-msg'>{error}</span>}
             </div>
+            <div className='pie'>
+         <Footer/>
+     </div>
         </>
     )
 }

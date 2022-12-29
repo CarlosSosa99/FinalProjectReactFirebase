@@ -24,11 +24,13 @@ export const Login = (props) => {
 
     return (
         <>
+        <div className='navbox'>
         <div className='container'>
-         <div className='navbox'>
+        
             <div className='leftside'>
                 <img src={logostore} alt="" />
             </div>
+         </div>
          </div>
 
             <div className='row my-5'>
@@ -58,10 +60,10 @@ export const Login = (props) => {
             <span>Don't have an account? Register
                 <Link to="signup"> Here</Link>
             </span>
-            </div>
+           </div>
             <div class="col-sm-3"></div>
             </div>
-        </div>
+    
        
         <div className='pie'>
             <Footer/>

@@ -26,8 +26,8 @@ export const Navbar = ({ user }) => {
                 <img src={logostore} alt="" />
             </div>
             {!user && <div className='rightside'>
-                <span><Link to="signup" className='navlink'>SIGN UP</Link></span>
-                <span><Link to="login" className='navlink'>LOGIN</Link></span>
+                <span><Link to="signup" className='navlink' id='crearusu'>SIGN UP</Link></span>
+                <span><Link to="login" className='navlink' id='ingresarusu'>LOGIN</Link></span>
             </div>}
             {user && <div className='rightside'>
                 <span><Link to="/" className='navlink'>{user}</Link></span>

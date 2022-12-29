@@ -11,6 +11,7 @@ import { Cart } from './Components/Cart'
 import { AddProducts } from './Components/AddProducts'
 import { Cashout } from './Components/Cashout'
 import { ListOrder, Order } from './Components/ListOrder'
+import { AboutUs } from './Components/AboutUs'
 
 export class App extends Component {
 
@@ -48,6 +49,8 @@ export class App extends Component {
                         <Switch>
                             {/* home */}
                             <Route exact path='/' component={() => <Home user={this.state.user} rol={this.state.rol} />} />
+                            {/*about us*/}
+                            <Route exact path="/aboutus" component={AboutUs}/>
                             {/* signup */}
                             <Route path="/signup" component={Signup} />
                             {/* login */}

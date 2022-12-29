@@ -34,9 +34,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
+    background-color: #309da4;
 }
 
 .navbox .leftside {
@@ -45,8 +46,8 @@ body {
 }
 
 .navbox .leftside img {
-    width: 120%;
-    height: 114%;
+    width: 100%;
+    height: 100%;
 }
 
 .navbox .rightside {
@@ -217,7 +218,9 @@ h1 {
     width: 150px;
     margin-left: 20px;
 }
-
+.parrafo{
+    padding-left: 15px;
+}
 @media(max-width: 768px) {
 
     .cart-container .cart-card .cart-name,
@@ -306,4 +309,7 @@ h1 {
 
 .success-msg .home-link {
     color: #fff;
+}
+.crearusu{
+  color: bisque;
 }

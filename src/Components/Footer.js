@@ -10,24 +10,15 @@ export const Footer = () => {
     </div>
 
     <div>
-      <a href="" className=" px-3 text-reset">
+      <a href="" className="px-3  text-reset">
         <i className="fab fa-facebook-f"></i>
       </a>
-      <a href="" className="me-5 px-3 text-reset">
-        <i className="fab fa-twitter"></i>
-      </a>
-      <a href="" className="me-5 px-3 text-reset">
-        <i className="fab fa-google"></i>
-      </a>
-      <a href="" className="me-5 px-3 text-reset">
+      <a href="" className=" px-3 text-reset">
         <i className="fab fa-instagram"></i>
       </a>
-      <a href="" className="me-5 px-3 text-reset">
-        <i className="fab fa-linkedin"></i>
-      </a>
-      <a href="" className="me-5 px-3 text-reset">
-        <i className="fab fa-github"></i>
-      </a>
+     <a href="" className="me-5 px3 text-reset">
+     <i class="fab fa-whatsapp"></i>
+     </a>
     </div>
   </section>
 
@@ -39,8 +30,7 @@ export const Footer = () => {
           <i class="fas fa-regular fa-paw"></i> <p>S&G Pet Shop</p>
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+          We love pets, and we believe loving pets makes us better people. That's one of the many reasons we do our job for Pets -because they will do anything for us.
           </p>
         </div>
      
@@ -53,13 +43,13 @@ export const Footer = () => {
             <a href="/" className="text-reset">Home</a>
           </p>
           <p>
-            <a href="#!" className="text-reset">About Us</a>
+            <a href="aboutus" className="text-reset">About Us</a>
           </p>
           <p>
-            <a href="#!" className="text-reset">Login</a>
+            <a href="login" className="text-reset">Login</a>
           </p>
           <p>
-            <a href="#!" className="text-reset">Sign Up</a>
+            <a href="signup" className="text-reset">Sign Up</a>
           </p>
         </div>
         

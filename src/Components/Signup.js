@@ -3,6 +3,7 @@ import { auth, db } from '../Config/Config'
 import { Link } from 'react-router-dom'
 import logostore from '../images/logostore.png'
 import { Footer } from './Footer';
+import { Navbar } from './Navbar';
 
 
 export const Signup = (props) => {
@@ -33,14 +34,8 @@ export const Signup = (props) => {
 
     return (
         <>
-        <div className='navbox'>
-        <div className='container'>
-            
-                <div className='leftside'>
-                    <img src={logostore} alt="" />
-                </div>
-            </div>
-            </div>
+                <Navbar/>
+
             <div className='row my-5'>
             <div class="col-sm-3"></div>
             <br />

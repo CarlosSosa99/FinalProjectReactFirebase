@@ -4,7 +4,14 @@
     margin: 0;
     padding: 0;
 }
+.typed-text{
+     color: #309da4;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 
+}
 .wrapper {
     overflow-x: hidden;
     overflow-y: auto;
@@ -51,9 +58,10 @@ body {
 }
 
 .navbox .rightside {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     position: relative;
+    background-size:contain;
 
 }
 
@@ -64,6 +72,11 @@ body {
 .navbox .rightside span .navlink {
     text-decoration: none;
     color: #000;
+    background-color: #e4e4e4;
+    border-radius: 10%;
+}
+.navbox .rightside span .navlink :hover{
+    color:blue;
 }
 
 .navbox .rightside .no-of-products {
@@ -313,3 +326,83 @@ h1 {
 .crearusu{
   color: bisque;
 }
+
+
+
+
+.contact{
+    background: cover;
+    background-color: var(--primary-blue);
+    padding-bottom: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    width: 100%;
+    
+  
+}
+
+.contact h3{
+    color: var(--primary-light-grey);
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 37%;
+
+}
+
+
+.contact form h1{
+    padding-top: 15px;
+    margin-left: 93px;
+}
+
+.contact form input{
+        width: 50%;
+        height: 35px;
+        padding: 3px;
+        outline: none;
+        border: 1px solid rgb(220, 220, 220);
+        margin-top: 10px;
+}
+.contact form input :focus{
+    border: 2px solid rgba(0, 206, 158, 1);
+    color: var(--primary-light-grey);
+    background-color: ;
+}
+.contact form textarea {
+    max-width: 50%;
+    min-width: 50%;
+    width: 30%;
+    max-height: 160px;
+    min-height: 80px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: 7px;
+}
+
+.contact form label{
+    margin-bottom: 3px;
+    margin-top: 3px;
+    font-family: 'Roboto', sans-serif;
+    color:var(--primary-light-grey);
+    
+}
+.subtitle{
+    align-items: left;
+}
+.btn-contact{
+    background-color: var(--primary-black);
+    color:var(--primary-light-grey);
+}
+
+.btn-contact:hover {
+    text-decoration: none;
+    color: var(--primary-white);
+    background-color: var(--primary-blue);
+    transition: 0.2s ease-in-out;
+  }

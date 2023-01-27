@@ -33,8 +33,8 @@ export const Cart = ({ user }) => {
                 <div className='cart-container'>
                     {
                         shoppingCart.length === 0 && <>
-                            <div>no items in your cart or slow internet causing trouble (Refresh the page) or you are not logged in</div>
-                            <div><Link to="/">Return to Home page</Link></div>
+                            <div style={{color:'#309da4'}}>no items in your cart or slow internet causing trouble (Refresh the page) or you are not logged in</div>
+                            <div><Link to="/" style={{color:'#309da4'}}>Return to Home page</Link></div>
                         </>
                     }
                     {shoppingCart && shoppingCart.map(cart => (

@@ -1,13 +1,20 @@
 import React, { useContext } from "react";
 import { ProductsContext } from "../Global/ProductsContext";
 import { Footer } from './Footer';
-
+import { Link } from 'react-router-dom'
 
 export const Order = () => {
   const { orders } = useContext(ProductsContext);
   return (
     <>
-      {orders.length !== 0 && <h1>Order</h1>}
+      {orders.length !== 0 && <><h1>Order</h1><div>
+      <Link to='/addProducts' className='cashout-link'>
+                            <button className='btn  btn-md' style={{ marginTop: 5 + 'px' }}>
+                               AddProducts
+                        </button>
+                        </Link>
+
+        </div></>}
       <div className="container">
         {orders.length === 0 && (
           <div>slow internet...no products to display</div>

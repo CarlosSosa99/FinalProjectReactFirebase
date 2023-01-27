@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { storage, db } from '../Config/Config'
+import { Link } from 'react-router-dom'
+
 
 export const AddProducts = () => {
 
@@ -66,6 +68,11 @@ export const AddProducts = () => {
                     onChange={productImgHandler} />
                 <br />
                 <button type="submit" className='btn btn-success btn-md mybtn'>ADD</button>
+                <Link to='/' className='cashout-link'>
+                            <button className='btn  btn-md' style={{ marginTop: 5 + 'px' }}>
+                               BACK
+                        </button>
+                        </Link>
             </form>
             {error && <span className='error-msg'>{error}</span>}
         </div>

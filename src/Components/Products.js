@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import { ProductsContext } from '../Global/ProductsContext'
 import { CartContext } from '../Global/CartContext'
+import { Navbar } from './Navbar';
+import { Footer } from './Footer';
 
 export const Products = () => {
 

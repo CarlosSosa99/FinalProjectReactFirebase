@@ -8,7 +8,6 @@ export const Footer = () => {
     <div className="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
     </div>
-
     <div>
       <a href="" className="px-3  text-reset">
         <i className="fab fa-facebook-f"></i>
@@ -43,13 +42,13 @@ export const Footer = () => {
             <a href="/" className="text-reset">Home</a>
           </p>
           <p>
-            <a href="aboutus" className="text-reset">About Us</a>
-          </p>
-          <p>
             <a href="login" className="text-reset">Login</a>
           </p>
           <p>
             <a href="signup" className="text-reset">Sign Up</a>
+          </p>
+          <p>
+            <a href="aboutus" className="text-reset">About Us</a>
           </p>
         </div>
         
